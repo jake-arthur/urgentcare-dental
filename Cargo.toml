@@ -1,0 +1,9 @@
+[package]
+name = "urgentcare-dental"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+citadel = { git = "https://github.com/hawkwood-corporation/citadel" }
+serde_json = "1.0.145"
+time = "0.3.44"
