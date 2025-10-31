@@ -19,6 +19,9 @@ pub const PHONE_NUMBER: &str = "0113 868 3185";
 pub const PHONE_NUMBER_LINK: &str = "tel:+441138683185";
 pub const BOOKING_LINK: &str = "https://urgentcaredental.setmore.com";
 
+pub const EMAIL: &str = "info.urgentcaredental@gmail.com";
+pub const EMAIL_LINK: &str = "mailto:info.urgentcaredental@gmail.com";
+
 pub static YEAR: OnceLock<u32> = OnceLock::new();
 
 pub fn get_year() -> u32 {

@@ -144,18 +144,21 @@ pub fn construct_homepage(site: &mut Site<UCDPages>, page: &mut Page<UCDPages>) 
                 
                 </section>
                 
-                <section>
+                <section class="general-services">
 
                     <div class="inner">
-                
-                        <div class="subtitle">Services</div>
-                        <h2>General & Cosmetic Dentistry</h2>
-                        <p>When the emergency is over, you'll want a dentist you can trust for the long term. We provide complete dental care - from routine checkups to advanced treatments - with the same professional service and fair pricing. After treatment, a follow-up appointment is free.</p>
-                        
+                    
+                        <div class="text-area">
+                            <div class="subtitle">Services</div>
+                            <h2>General & Cosmetic Dentistry</h2>
+                            <p>When the emergency is over, you'll want a dentist you can trust for the long term. We provide complete dental care - from routine checkups to advanced treatments - with the same professional service and fair pricing. After treatment, a follow-up appointment is free.</p>
+                        </div>
                         <div class="grid">
                             <div class="service">
                                 <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-64549ac4-d685-4363-a417-5961f1d256e9, rgb(2, 146, 151))" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-64549ac4-d685-4363-a417-5961f1d256e9, rgb(2, 146, 151)); color: var(--token-64549ac4-d685-4363-a417-5961f1d256e9, rgb(2, 146, 151)); flex-shrink: 0;"><g color="var(--token-64549ac4-d685-4363-a417-5961f1d256e9, rgb(2, 146, 151))" weight="thin"><path d="M234.83,69.17l-48-48a4,4,0,0,0-5.66,5.66L202.34,48,168,82.34,130.83,45.17a4,4,0,1,0-5.66,5.66L134.34,60,47.51,146.83A12,12,0,0,0,44,155.31v51L21.17,229.17a4,4,0,0,0,5.66,5.66L49.66,212h51a11.93,11.93,0,0,0,8.48-3.51L196,121.66l9.17,9.17a4,4,0,0,0,5.66-5.66L173.66,88,208,53.66l21.17,21.17a4,4,0,1,0,5.66-5.66ZM103.51,202.83a4,4,0,0,1-2.82,1.17H52V155.31a4,4,0,0,1,1.17-2.82L74,131.66l23.17,23.17a4,4,0,1,0,5.66-5.66L79.66,126,98,107.66l23.17,23.17a4,4,0,0,0,5.66-5.66L103.66,102,140,65.66l25.17,25.17h0L190.34,116Z"></path></g></svg>
+                                    <div class="circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" ><g weight="thin"><path d="M234.83,69.17l-48-48a4,4,0,0,0-5.66,5.66L202.34,48,168,82.34,130.83,45.17a4,4,0,1,0-5.66,5.66L134.34,60,47.51,146.83A12,12,0,0,0,44,155.31v51L21.17,229.17a4,4,0,0,0,5.66,5.66L49.66,212h51a11.93,11.93,0,0,0,8.48-3.51L196,121.66l9.17,9.17a4,4,0,0,0,5.66-5.66L173.66,88,208,53.66l21.17,21.17a4,4,0,1,0,5.66-5.66ZM103.51,202.83a4,4,0,0,1-2.82,1.17H52V155.31a4,4,0,0,1,1.17-2.82L74,131.66l23.17,23.17a4,4,0,1,0,5.66-5.66L79.66,126,98,107.66l23.17,23.17a4,4,0,0,0,5.66-5.66L103.66,102,140,65.66l25.17,25.17h0L190.34,116Z"></path></g></svg>
+                                    </div>
                                 </div>
                                 <h3>Emergency Services</h3>
                                 <ul>
@@ -169,7 +172,9 @@ pub fn construct_homepage(site: &mut Site<UCDPages>, page: &mut Page<UCDPages>) 
                             </div>
                             <div class="service">
                                 <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-64549ac4-d685-4363-a417-5961f1d256e9, rgb(2, 146, 151))" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-64549ac4-d685-4363-a417-5961f1d256e9, rgb(2, 146, 151)); color: var(--token-64549ac4-d685-4363-a417-5961f1d256e9, rgb(2, 146, 151)); flex-shrink: 0;"><g color="var(--token-64549ac4-d685-4363-a417-5961f1d256e9, rgb(2, 146, 151))" weight="thin"><path d="M178.91,128l30.55-30.54a36,36,0,0,0-50.92-50.92L128,77.09,97.46,46.54A36,36,0,0,0,46.54,97.46L77.09,128,46.54,158.54a36,36,0,0,0,50.92,50.92L128,178.91l30.54,30.55a36,36,0,0,0,50.92-50.92ZM164.2,52.2a28,28,0,0,1,39.6,39.6l-30.55,30.54L133.66,82.75Zm3.4,75.8L128,167.6,88.4,128,128,88.4ZM52.2,91.8A28,28,0,0,1,91.8,52.2l30.54,30.55L82.75,122.34Zm39.6,112a28,28,0,0,1-39.6-39.6l30.55-30.54,39.59,39.59Zm112,0a28,28,0,0,1-39.6,0l-30.54-30.55,39.59-39.59L203.8,164.2a28,28,0,0,1,0,39.6ZM120,128a8,8,0,1,1,8,8A8,8,0,0,1,120,128Z"></path></g></svg>
+                                    <div class="circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"><g weight="thin"><path d="M178.91,128l30.55-30.54a36,36,0,0,0-50.92-50.92L128,77.09,97.46,46.54A36,36,0,0,0,46.54,97.46L77.09,128,46.54,158.54a36,36,0,0,0,50.92,50.92L128,178.91l30.54,30.55a36,36,0,0,0,50.92-50.92ZM164.2,52.2a28,28,0,0,1,39.6,39.6l-30.55,30.54L133.66,82.75Zm3.4,75.8L128,167.6,88.4,128,128,88.4ZM52.2,91.8A28,28,0,0,1,91.8,52.2l30.54,30.55L82.75,122.34Zm39.6,112a28,28,0,0,1-39.6-39.6l30.55-30.54,39.59,39.59Zm112,0a28,28,0,0,1-39.6,0l-30.54-30.55,39.59-39.59L203.8,164.2a28,28,0,0,1,0,39.6ZM120,128a8,8,0,1,1,8,8A8,8,0,0,1,120,128Z"></path></g></svg>
+                                    </div>
                                 </div>
                                 <h3>General Treatment</h3>
                                 <ul>
@@ -183,7 +188,9 @@ pub fn construct_homepage(site: &mut Site<UCDPages>, page: &mut Page<UCDPages>) 
                             </div>
                             <div class="service">
                                 <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-64549ac4-d685-4363-a417-5961f1d256e9, rgb(2, 146, 151))" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-64549ac4-d685-4363-a417-5961f1d256e9, rgb(2, 146, 151)); color: var(--token-64549ac4-d685-4363-a417-5961f1d256e9, rgb(2, 146, 151)); flex-shrink: 0;"><g color="var(--token-64549ac4-d685-4363-a417-5961f1d256e9, rgb(2, 146, 151))" weight="thin"><path d="M169.49,67.71,138.77,80l30.72,12.28A4,4,0,0,1,168,100a3.91,3.91,0,0,1-1.49-.29L128,84.31,89.49,99.71A3.91,3.91,0,0,1,88,100a4,4,0,0,1-1.49-7.72L117.23,80,86.51,67.71a4,4,0,0,1,3-7.43L128,75.69l38.51-15.41a4,4,0,0,1,3,7.43Zm50.51,12c.07,71.08-23.16,130.07-45.65,146.05a11.74,11.74,0,0,1-11.93,1,11.91,11.91,0,0,1-6.9-10C154.35,200.93,149.33,164,128,164s-26.35,36.94-27.52,52.82a12.11,12.11,0,0,1-12,11.19,11.77,11.77,0,0,1-6.83-2.2c-22.49-16-45.72-75-45.65-146A52,52,0,0,1,88,28h80A52,52,0,0,1,220,79.75Zm-8,0A44,44,0,0,0,168,36H88A44,44,0,0,0,44,79.76c-.07,67.58,21.9,125,42.29,139.51a3.77,3.77,0,0,0,3.89.33,4,4,0,0,0,2.32-3.37C95.36,177.39,108,156,128,156s32.64,21.4,35.5,60.24a4,4,0,0,0,2.32,3.37,3.77,3.77,0,0,0,3.89-.33C190.1,204.8,212.07,147.34,212,79.76Z"></path></g></svg>
+                                    <div class="circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"><g weight="thin"><path d="M169.49,67.71,138.77,80l30.72,12.28A4,4,0,0,1,168,100a3.91,3.91,0,0,1-1.49-.29L128,84.31,89.49,99.71A3.91,3.91,0,0,1,88,100a4,4,0,0,1-1.49-7.72L117.23,80,86.51,67.71a4,4,0,0,1,3-7.43L128,75.69l38.51-15.41a4,4,0,0,1,3,7.43Zm50.51,12c.07,71.08-23.16,130.07-45.65,146.05a11.74,11.74,0,0,1-11.93,1,11.91,11.91,0,0,1-6.9-10C154.35,200.93,149.33,164,128,164s-26.35,36.94-27.52,52.82a12.11,12.11,0,0,1-12,11.19,11.77,11.77,0,0,1-6.83-2.2c-22.49-16-45.72-75-45.65-146A52,52,0,0,1,88,28h80A52,52,0,0,1,220,79.75Zm-8,0A44,44,0,0,0,168,36H88A44,44,0,0,0,44,79.76c-.07,67.58,21.9,125,42.29,139.51a3.77,3.77,0,0,0,3.89.33,4,4,0,0,0,2.32-3.37C95.36,177.39,108,156,128,156s32.64,21.4,35.5,60.24a4,4,0,0,0,2.32,3.37,3.77,3.77,0,0,0,3.89-.33C190.1,204.8,212.07,147.34,212,79.76Z"></path></g></svg>
+                                    </div>
                                 </div>
                                 <h3>Specialist Care</h3>
                                 <ul>
@@ -195,39 +202,65 @@ pub fn construct_homepage(site: &mut Site<UCDPages>, page: &mut Page<UCDPages>) 
                                     <li>Nighttime Bookings</li>
                                 </ul>
                             </div>
-                            <a class="small-button secondary" href="/pricing/" >View Pricing</a>
                         </div>
+                        <a class="small-button secondary" href="/pricing/" >View Pricing</a>
                     </div>
                 
                 </section>
                 
                 <section class="meet-us">
                     <div class="inner">
-                        <div class="subtitle">Meet Us</div>
-                        <h2>Our Passionate Team</h2>
-                        <p>Our experienced team delivers fast, professional care around the clock. From emergency relief to complex treatments, we're here when other clinics are closed - ready to end your pain and fix the problem properly.</p>
+                        <div class="text-area">
+                            <div class="subtitle">Meet Us</div>
+                            <h2>Our Passionate Team</h2>
+                            <p>Our experienced team delivers fast, professional care around the clock. From emergency relief to complex treatments, we're here when other clinics are closed - ready to end your pain and fix the problem properly.</p>
+                        </div>
                         <div class="grid">
                             <div class="team-member">
+                                <div class="image-area">
+                                    <div class="circle"></div>
+                                    <img loading="lazy" src="/images/dentists/Dr. Zain Chishty.png" />
+                                </div>
                                 <h3>Dr. Zain Chishty</h3>
                                 <p>General & Implant Dentist</p>
                             </div>
                             <div class="team-member">
+                                <div class="image-area">
+                                    <div class="circle"></div>
+                                    <img loading="lazy" src="/images/dentists/Dr. Parasto Farshchi.png" />
+                                </div>
                                 <h3>Dr. Parasto Farshchi</h3>
                                 <p>Cosmetic Dentist and Facial Aesthetician</p>
                             </div>
                             <div class="team-member">
+                                <div class="image-area">
+                                    <div class="circle"></div>
+                                    <img loading="lazy" src="/images/dentists/Dr. Anoop Kizaekka.png" />
+                                </div>
                                 <h3>Dr. Anoop Kizaekka</h3>
                                 <p>Oral Surgeon</p>
                             </div>
                             <div class="team-member">
+                                <div class="image-area">
+                                    <div class="circle"></div>
+                                    <img loading="lazy" src="/images/dentists/Dr. Mohammed Fahhr Hussain.png" />
+                                </div>
                                 <h3>Dr. Mohammed Fahhr Hussain</h3>
                                 <p>Oral Surgery & Endodontics</p>
                             </div>
                             <div class="team-member">
+                                <div class="image-area">
+                                    <div class="circle"></div>
+                                    <img loading="lazy" src="/images/dentists/Dr. Shahee Ahmed.png" />
+                                </div>
                                 <h3>Dr. Shahee Ahmed</h3>
                                 <p>Oral Surgery and Paediatric Dentistry</p>
                             </div>
                             <div class="team-member">
+                                <div class="image-area">
+                                    <div class="circle"></div>
+                                    <img loading="lazy" src="/images/dentists/Dr. Rafaela Fernandes Zancan.png" />
+                                </div>
                                 <h3>Dr. Rafaela Fernandes Zancan</h3>
                                 <p>Special Interest in Endodontics</p>
                             </div>
@@ -237,14 +270,50 @@ pub fn construct_homepage(site: &mut Site<UCDPages>, page: &mut Page<UCDPages>) 
                 
                 <section class="open-times">
                     <div class="inner">
-                        <h2>Book an Appointment</h2>
-                        <p>Our team is ready to help whenever you need us. Same-day appointments available, with fast response times (usually within an hour).</p>
-                        <div class="times">
+                        <div class="polka-dots"></div>
+                        <div class="background-fade"></div>
+                        
+                        <div class="text-area">
+                            <h2>Book an Appointment</h2>
+                            <p>Our team is ready to help whenever you need us. Same-day appointments available, with fast response times (usually within an hour).</p>
+                        </div>
+                        <div class="times-area">
                             <div class="hours-area">
+                                <h3>Our Working Program</h3>
+                                <table>
+                                    <tr>
+                                        <td>Monday</td>
+                                        <td>Open 24 Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tuesday</td>
+                                        <td>Open 24 Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wednesday</td>
+                                        <td>Open 24 Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Thursday</td>
+                                        <td>Open 24 Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Friday</td>
+                                        <td>Open 24 Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Saturday</td>
+                                        <td>Open 24 Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sunday</td>
+                                        <td>Open 24 Hours</td>
+                                    </tr>
+                                </table>
                             </div>
                             <div class="image-area">
                                 <div class="buttons">
-                                    <a href="{BOOKING_LINK}" class="primary">Book an Appointment</a>
+                                    <a href="{BOOKING_LINK}" class="primary">Book Online</a>
                                     <a href="{PHONE_NUMBER_LINK}" class="secondary">Call {PHONE_NUMBER}</a>
                                     <a href="https://wa.me/447383502032" class="secondary">WhatsApp Us</a>
                                 </div>
@@ -253,28 +322,63 @@ pub fn construct_homepage(site: &mut Site<UCDPages>, page: &mut Page<UCDPages>) 
                     </div>
                 </section>
                 
-                <section class="patient-stories">
+                <<section class="patient-stories">
+                <div class="text-area">
                     <div class="subtitle">Testimonials</div>
                     <h2>Kind Words from Our Patients</h2>
                     <p>Real feedback from emergency patients we've helped.</p>
-                    <div class="testimonials">
-                        <div class="testimonial">
-                            <div class="stars">★★★★★</div>
-                            <p>"Fantastic emergency service! I had severe tooth pain on a Sunday and they saw me within an hour. The staff were incredibly professional and caring."</p>
-                            <cite>— Sarah M., Leeds</cite>
+                </div>
+                <div class="testimonials">
+                    <div class="testimonial">
+                        <div class="image-circle">
+                            <img src="/images/homepage/testimonials/SkjDmb1eRBfviouDKjS5VNX7as.webp" alt="Sarah Mitchell">
                         </div>
-                        <div class="testimonial">
-                            <div class="stars">★★★★★</div>
-                            <p>"Lost a filling on holiday weekend. UrgentCare Dental fixed it same day at a fraction of what I expected to pay. Brilliant service!"</p>
-                            <cite>— James T., Manchester</cite>
-                        </div>
-                        <div class="testimonial">
-                            <div class="stars">★★★★★</div>
-                            <p>"My daughter chipped her tooth badly. They calmed her down, fixed it beautifully, and the follow-up was free. Can't recommend enough!"</p>
-                            <cite>— Amanda R., Leeds</cite>
-                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p>"Sorted my broken crown same evening. Clean modern practice, caring staff. Called several dentists but only these could help after hours. Quick response on the phone and clear pricing upfront. The dentist explained everything thoroughly."</p>
+                        <cite>— Sarah Mitchell</cite>
                     </div>
-                </section>
+                    <div class="testimonial">
+                        <div class="image-circle">
+                            <img src="/images/homepage/testimonials/IAOjZkUp6Oc9Ct0TRrlYXUX6PLo.webp" alt="Emma Wilson">
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p>"Relief from abscess pain when my regular dentist was closed. Worth every penny for evening care. Was worried about needing emergency treatment but they made the whole process straightforward. Excellent follow-up care instructions too."</p>
+                        <cite>— Emma Wilson</cite>
+                    </div>
+                    <div class="testimonial">
+                        <div class="image-circle">
+                            <img src="/images/homepage/testimonials/D2d3tLp1h0R0GSpF1T8OggW2ro.webp" alt="Jennifer O'Connor">
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p>"Emergency visit for broken crown. Reception was efficient and got me in within 30 minutes. Thorough treatment and helpful aftercare advice. Great to know they're available when needed."</p>
+                        <cite>— Jennifer O'Connor</cite>
+                    </div>
+                    <div class="testimonial">
+                        <div class="image-circle">
+                            <img src="/images/homepage/testimonials/bkfRdAxlZmoDYYSDzbXucX5WA.webp" alt="David Thompson">
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p>"Sorted my broken crown same evening. Clean modern practice, caring staff. Called several dentists but only these could help after hours. Quick response on the phone and clear pricing upfront. The dentist explained everything thoroughly."</p>
+                        <cite>— David Thompson</cite>
+                    </div>
+                    <div class="testimonial">
+                        <div class="image-circle">
+                            <img src="/images/homepage/testimonials/a7qhxcvMrGG7nO7isLG7wkBU.webp" alt="David Chen">
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p>"Sudden toothache after work - really relieved they could see me same evening. Quick appointment and professional service. Dentist explained everything clearly and fixed the problem. Clean, modern clinic."</p>
+                        <cite>— David Chen</cite>
+                    </div>
+                    <div class="testimonial">
+                        <div class="image-circle">
+                            <img src="/images/homepage/testimonials/iloHmwiKeL15574tMg7gfcPfeac.webp" alt="Fatima Rahman">
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p>"Called with severe pain from abscess. Professional team and prompt service got me sorted quickly. Clean facilities and caring staff made a stressful situation much easier. Very grateful for their help."</p>
+                        <cite>— Fatima Rahman</cite>
+                    </div>
+                </div>
+            </section>
                 
                 
             </main>
@@ -296,6 +400,42 @@ fn css(site: &mut Site<UCDPages>) {
         {}
         
         main.home {
+            
+            
+            .small-button {
+                display: block;
+                width: fit-content;
+                font-size: 16px;
+                font-weight: 500;
+                height: min-content;
+                place-content: center flex-start;
+                align-items: center;
+                padding: 0 12px;
+                height: auto;
+                text-decoration: none;
+                align-self: center;
+                place-content: center;
+                background-color: #fff;
+                color: var(--turquoise-15);
+                
+                padding: 14px 32px;
+                border-radius: 25px;
+                text-decoration: none;
+                font-weight: 500;
+                transition: all 0.3s ease;
+                
+                &.secondary {
+                    background: white;
+                    color: var(--turquoise-30);
+                    border: 2px solid var(--turquoise-30);
+                    
+                    &:hover {
+                        background: var(--turquoise-98);
+                        transform: translateY(-2px);
+                    }
+                }
+                
+            }
         
             section.dentist-splash-hero {
             
@@ -793,42 +933,6 @@ fn css(site: &mut Site<UCDPages>) {
                             }
                             
                             
-                            .small-button {
-                                display: block;
-                                width: fit-content;
-                                font-size: 16px;
-                                font-weight: 500;
-                                height: min-content;
-                                place-content: center flex-start;
-                                align-items: center;
-                                padding: 0 12px;
-                                height: auto;
-                                text-decoration: none;
-                                align-self: center;
-                                place-content: center;
-                                background-color: #fff;
-                                color: var(--turquoise-15);
-                                
-                                padding: 14px 32px;
-                                border-radius: 25px;
-                                text-decoration: none;
-                                font-weight: 500;
-                                transition: all 0.3s ease;
-                                
-                                &.secondary {
-                                    background: white;
-                                    color: var(--turquoise-30);
-                                    border: 2px solid var(--turquoise-30);
-                                    
-                                    &:hover {
-                                        background: var(--turquoise-98);
-                                        transform: translateY(-2px);
-                                    }
-                                }
-                                
-                            }
-                            
-                            
                         }
                         
                         
@@ -868,12 +972,523 @@ fn css(site: &mut Site<UCDPages>) {
             
             
             
+            section.meet-us {
+                
+                background-color: #f5ffff;
+                text-align: center;
+                
+                .inner {
+                    
+                    position: relative;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 120px var(--site-padding-x);
+                    
+                    
+                    .subtitle {
+                        font-size: 16px;
+                        color: var(--turquoise-30);
+                        font-weight: 600;
+                        margin-bottom: 24px;
+                    }
+                    
+                    h2 {
+                        font-size: 36px;
+                        color: var(--turquoise-15);
+                        margin-bottom: 24px;
+                    }
+                    
+                    p {
+                        font-size: 18px;
+                        line-height: 1.6;
+                        color: var(--grey-50);
+                        margin: 0 auto 20px;
+                        font-weight: 300;                      
+                    }
+                    
+                    .text-area {
+                        margin: 0 auto 48px;
+                        max-width: 720px;
+                    }
+                    
+        
+                            
+                    .grid {
+                        grid-template-columns: repeat(3, minmax(200px, 1fr));
+                        grid-auto-rows: minmax(0, 1fr);
+                        justify-content: center;
+                        gap: 24px;
+                        
+                        padding: 0;
+                        display: grid;
+                        
+                        
+                        
+                        .team-member {
+                            position: relative;
+                            width: 240px;
+                            
+                            margin: 0 auto;
+                            
+                            
+                            .image-area {
+                                
+                                position: relative;
+                                
+                                height: 320px;
+                                width: 240px;
+                                
+                                margin-bottom: 18px;
+                                
+                                
+                                .circle {
+                                
+                                    background-color: rgb(230, 230, 230);
+                                    border-radius: 480px;
+                                    height: 240px;
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                    right: 0;
+                                    overflow: hidden;
+                                    width: 240px;
+                                
+                                }
+                            
+                                img {
+                                    display: block;
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 320px;
+                                    border-radius: 480px;
+                                    object-position: center center;
+                                    object-fit: cover;
+                                    aspect-ratio: .75;
+                                    bottom: 0;
+                                    transform: none;
+                                    transform-origin: 50% 50% 0px;
+                                    transition: all 0.35s ease 0s;
+                                    
+                                    &:hover {
+                                        transform: translateY(-5px) scale(1.02);
+                                        
+                                        
+                                    }
+                                }
+                                
+                                
+                            }
+                            
+                            
+                            h3 {
+                                font-size: 18px;
+                                color: var(--turquoise-15);
+                                margin-bottom: 4px;
+                            }
+                            
+                            p {
+                                font-size: 14px;
+                                font-weight: 400;
+                                margin-bottom: 0;
+                            }
+                            
+                            
+                        }
+                        
+                        
+                        
+                        
+                    } 
+                                        
+                }
+
+                
+                
+            }
             
             
             
             
             
+            section.general-services {
+                
+                
+                .inner {
+                    position: relative;
+                    max-width: 1200px;
+                    
+                    margin: 0 auto;
+                    
+                    padding: 120px var(--site-padding-x);
+                    
+                    text-align: center;
+                
+                    .polka-dots {
+                        position: absolute;
+                        width: 50%;
+                        height: 480px;
+                        top: 480px;
+                        left: 0;
+                        background-image: radial-gradient(rgb(2, 220, 227) 1px, transparent 1px), radial-gradient(rgb(2, 220, 227) 1px, rgba(35, 84, 84, 0) 1px);
+                        background-position: 0 0, 15px 15px;
+                        background-size: 30px 30px;
+                        z-index: -1;
+                    }
+                    
+                    
+                    .subtitle {
+                        font-size: 16px;
+                        color: var(--turquoise-30);
+                        font-weight: 600;
+                        margin-bottom: 24px;
+                        
+                    }
+                    
+                    h2 {
+                        font-size: 36px;
+                        color: var(--turquoise-15);
+                        margin-bottom: 24px;
+                    }
+                    
+                    p {
+                        font-size: 18px;
+                        line-height: 1.6;
+                        color: var(--grey-50);
+                        margin: 0 auto 20px;
+                        font-weight: 300;                      
+                    }
+                    
+                    .text-area {
+                        margin: 0 auto;
+                        max-width: 800px;
+                    }
+                    
+                    .grid {
+                        display: flex;
+                        justify-content: center;
+                        gap: 40px;
+                        margin-top: 40px;
+                        
+                        .service {
+                            
+                            align-items: center;
+                            gap: 10px;
+                            width: 240px;
+                            margin: 0 auto;
+                            place-items: center;
+                            text-align: center;
+                            
+                            .icon {
+                                background-color: transparent;
+                                background-image: radial-gradient(rgb(2, 220, 227) 1px, transparent 1px), radial-gradient(rgb(2, 220, 227) 1px, rgba(35, 84, 84, 0) 1px);
+                                background-position: 0 0, 12px 12px;
+                                background-size: 24px 24px;
+                                width: 168px;
+                                height: 168px;
+                                place-items: center;
+                                place-content: center;
+                                
+                                .circle {
+                                    border: 1px solid rgb(2, 146, 151);
+                                    background-color: white;
+                                    border-radius: 96px;
+                                    height: 120px;
+                                    width: 120px;
+                                    place-content: center;
+                                    
+                                    &::after {
+                                        content: "";
+                                        border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0);
+                                        border-color: var(--border-color, none);
+                                        border-style: var(--border-style, none);
+                                    }
+                                    
+                                    svg {
+                                        fill: rgb(2, 146, 151);
+                                        width: 72px;
+                                        height: 72px;
+                                    }
+                                }
+                                
+                            }
+                            
+                            
+                            p {
+                                margin: 0;
+                            }
+                            
+                            h3 {
+                                font-size: 18px;
+                                color: var(--turquoise-15);
+                                margin-bottom: 8px;
+                            }
+                            
+                            a {
+                                color: var(--grey-50);
+                            }
+                            
+                            ul {
+                                margin: 0;
+                                padding: 0;
+                                text-align: center;
+                                
+                                li {
+                                    list-style-type: none;
+                                    color: var(--grey-50);
+                                    position: relative;
+                                    padding-left: 0;
+                                    margin: 0;
+                                    line-height: 1.6;
+                                    
+                                    &::before {
+                                        content: "✓";
+                                        color: var(--turquoise-30);
+                                        position: relative;
+                                        margin-right: 0.5em;
+                                    }
+                                }
+                            }
+                            
+                        }
+                                            
+                    }
+                    
+                    .small-button {
+                        
+                        margin: 48px auto 0;
+                    }
+                    
+                }
+
+                
+                
+            }
             
+            
+            
+            section.open-times {
+            
+                display: flex;
+                padding: 128px var(--site-padding-x);
+                width: 100%;
+                background-color: #029297;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+                position: relative;
+                
+                .inner {
+                    
+                    max-width: 1200px;
+                    width: 100%;
+                    
+                    
+                    .polka-dots {
+                        width: 100%;
+                        height: 100%;
+                        background-color: transparent;
+                        background-image: var(--polka-dots-70);
+                        background-position: 0px 0px, 20px 20px;
+                        background-size: 40px 40px;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        z-index: 0;
+                    }
+                    
+                    .background-fade {
+                        position: absolute;
+                        z-index: 1;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: linear-gradient(330deg, rgba(2, 145, 150, 0) 0.1%, #029297, rgb(2, 146, 151) 140%);
+
+                    }
+                    
+                    
+                    .text-area {
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: center;
+                        max-width: 400px;
+                        z-index: 10;
+                        
+                        h2 {
+                            font-size: 36px;
+                            color: #68f8fd;
+                            line-height: 1.4em;
+                            z-index: 10;
+                        }
+                            
+                        p {
+                            font-size: 18px;
+                            color: #fff;
+                            line-height: 1.4em;
+                            paragraph-spacing: 20px;
+                            font-weight: 300;
+                            z-index: 10;
+                        }
+                            
+                        .buttons {
+                            display: flex;
+                            gap: 10px;
+                            font-size: 22px;
+                            font-weight: 500;
+                            wrap: nowrap;
+                            flex-flow: wrap;
+                            height: min-content;
+                            place-content: center flex-start;
+                            align-items: center;
+                        
+                            
+                            .primary {
+                            
+                                background-color: var(--turquoise-15);
+                                color: white;
+                            }
+                            
+                            .secondary {
+                            
+                                background-color: #fff;
+                                color: var(--turquoise-15);
+                            
+                            }
+                            
+                            a {
+                                padding: 0 36px;
+                                height: 60px;
+                                text-decoration: none;
+                                align-self: center;
+                                place-content: center;
+                            }
+                        }
+                    }
+                    
+                    .times-area {
+                        
+                        display: flex;
+                        align-items: center;
+                        
+                        z-index: 10;
+                        
+                        
+                        
+                        
+                        .hours-area {
+                            
+                            width: 40%;
+                            
+                            h3 {
+                                color: #68f8fd;
+                                font-size: 18px;
+                            }
+                            
+                            background-color: #01494b;
+                            border-radius: 2px;
+                            padding: 48px;
+                            
+                            height: fit-content;
+                            z-index: 10;
+
+                            
+                            table {
+                                width: 100%;
+                                border-collapse: collapse;
+                                
+                                tr {
+                                    border-bottom: 1px solid #68f8fd;
+                                    
+                                    &:last-child {
+                                        border-bottom: none;
+                                    }
+                                    
+                                    td {
+                                        padding: 0.8rem 0;
+                                        color: white;
+                                        
+                                        &:first-child {
+                                            text-align: left;
+                                        }
+                                        
+                                        &:last-child {
+                                            text-align: right;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                        .image-area {
+                            
+                            height: 574px;
+                            width: 60%;
+                            
+                            background-image: url('/images/homepage/UBCKIXJtyeQQHICDWd76O00vxA.avif');
+                            
+                            object-fit: cover;
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 2px;
+                            position: relative;
+                            z-index: 10;
+                            
+                            
+                            
+                            .buttons {
+                                display: flex;
+                                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
+                                width: 100%;
+                                height: 100%;
+                                gap: 10px;
+                                font-size: 22px;
+                                font-weight: 500;
+                                wrap: nowrap;
+                                flex-flow: wrap;
+                                flex-direction: column;
+                                place-items: center;
+                                place-content: center;
+                            
+                                
+                                .primary {
+                                
+                                    background-color: var(--turquoise-15);
+                                    color: white;
+                                }
+                                
+                                .secondary {
+                                
+                                    background-color: #fff;
+                                    color: var(--turquoise-15);
+                                 
+                                }
+                                
+                                a {
+                                    padding: 0 36px;
+                                    height: 60px;
+                                    text-decoration: none;
+                                    align-self: center;
+                                    place-content: center;
+                                }
+                            }
+                            
+                            
+                        }
+                        
+                        
+                    }
+                    
+                    
+                }
+                    
+                
+                
+            }
             
             
                 
@@ -884,12 +1499,37 @@ fn css(site: &mut Site<UCDPages>) {
                 padding: 100px var(--site-padding-x);
                 background: white;
                 
-                h2 {
-                    text-align: center;
-                    font-size: 42px;
-                    color: var(--turquoise-15);
-                    margin-bottom: 60px;
+                padding: 120px var(--site-padding-x);
+                
+                .text-area {
+                    
+                    margin-bottom: 48px;
+                            
+                    .subtitle {
+                        font-size: 16px;
+                        color: var(--turquoise-30);
+                        font-weight: 600;
+                        margin: 0 auto 24px;
+                        text-align: center;
+                        
+                    }
+                    
+                    h2 {
+                        text-align: center;
+                        font-size: 42px;
+                        color: var(--turquoise-15);
+                        margin-bottom: 24px;
+                    }
+                    
+                    p {
+                        text-align: center;
+                    }
+                    
+                    
+                    
                 }
+                
+                
                 
                 .testimonials {
                     display: grid;
@@ -902,6 +1542,29 @@ fn css(site: &mut Site<UCDPages>) {
                         padding: 32px;
                         background: var(--turquoise-98);
                         border-radius: 12px;
+                        
+                        .image-circle {
+                            width: 96px;
+                            height: 96px;
+                            border-radius: 50%;
+                            overflow: hidden;
+                            margin: 0 auto 1rem;
+                            
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                
+                                /* Adjust the crop position of just the first image */
+                                &:first-child {
+                                    object-position: top;
+                                }
+                                
+                            }
+                            
+                            
+                            
+                        }
                         
                         .stars {
                             color: #ffc107;
@@ -924,12 +1587,6 @@ fn css(site: &mut Site<UCDPages>) {
                     }
                 }
             }
-            
-            
-            
-            
-            
-            
         }
     "##);
 }
