@@ -502,11 +502,11 @@ fn css(site: &mut Site<UCDPages>) {
                         gap: 10px;
                         font-size: 22px;
                         font-weight: 500;
-                        wrap: nowrap;
                         flex-flow: wrap;
                         height: min-content;
                         place-content: center flex-start;
                         align-items: center;
+                        max-width: 576px;
                     
                         
                         .primary {
