@@ -9,6 +9,7 @@ pub enum UCDPages {
     PostList,
     Category(String, Vec<PostData<UCDFrontmatter>>), // Category name and its posts
     CategoriesIndex,
+    AboutUs,
 }
 
 pub const SITE_NAME: &str = "UrgentCare Dental";

@@ -6,11 +6,13 @@ pub mod page_types {
     pub mod post;
     pub mod category;
     pub mod categories;
+    pub mod about_us;
 }
 
 pub mod sections {
     pub mod header;
     pub mod footer;
+    pub mod meet_us;
 }
 
 pub mod parts {

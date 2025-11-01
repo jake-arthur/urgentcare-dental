@@ -8,6 +8,8 @@ pub use crate::{
         post::*,
         category::*,
         categories::*,
+        about_us::*,
+        meet_us::*,
     },
     sections::{
         header::*,
