@@ -1,8 +1,8 @@
 use crate::prelude::*;
 
-pub fn construct_meet_us<T, I>(site: &mut Site<T, I>) -> String {
+pub fn add_common_sections<T, I>(site: &mut Site<T, I>) {
     
-    site.declare_css("meet-us", r##"
+    site.declare_css("meet_us", r##"
     
         {}
     
@@ -137,7 +137,7 @@ pub fn construct_meet_us<T, I>(site: &mut Site<T, I>) -> String {
         }
     "##);
     
-    r##"<section class="meet-us">
+    site.declare_section("meet_us", r##"<section class="meet-us">
             <div class="inner">
                 <div class="text-area">
                     <div class="subtitle">Meet Us</div>
@@ -195,5 +195,27 @@ pub fn construct_meet_us<T, I>(site: &mut Site<T, I>) -> String {
                     </div>
                 </div>
             </div>
-        </section>"##.to_owned()
+        </section>"##);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 }

@@ -1,6 +1,5 @@
 use urgentcare_dental::prelude::*;
 use std::collections::HashMap;
-
 use UCDPages::*;
 
 fn main() {
@@ -137,6 +136,8 @@ fn main() {
     add_head_code(&mut site);
     
     add_sitewide_schema(&mut site);
+    
+    add_common_sections(&mut site);
     
     
     site.commence();

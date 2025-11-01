@@ -9,11 +9,11 @@ pub use crate::{
         category::*,
         categories::*,
         about_us::*,
-        meet_us::*,
     },
     sections::{
         header::*,
         footer::*,
+        common_sections::*,
     },
     parts::{
         nav_toggle::*,

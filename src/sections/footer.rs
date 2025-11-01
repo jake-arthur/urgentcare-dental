@@ -1,5 +1,4 @@
 use crate::prelude::*;
-use time::OffsetDateTime;
 
 pub fn construct_footer<T, I>(site: &mut Site<T, I>) -> String {
     

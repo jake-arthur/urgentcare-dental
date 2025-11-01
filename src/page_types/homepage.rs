@@ -1,11 +1,16 @@
-use crate::{prelude::*, sections::meet_us::{self, construct_meet_us}};
+use crate::prelude::*;
 
 pub fn construct_homepage(site: &mut Site<UCDPages>, page: &mut Page<UCDPages>) {
     
     let head = site.construct_head(page);
     
+    css(site);
     
-    let meet_us = construct_meet_us(site);
+    
+    let header = construct_header(site, &page.foundation);
+    let footer = construct_footer(site);
+    
+    let meet_us = &site.sections["meet_us"];
     
     let html = format!(r##"
         <!DOCTYPE html>
@@ -331,12 +336,9 @@ pub fn construct_homepage(site: &mut Site<UCDPages>, page: &mut Page<UCDPages>) 
             {footer}
         </body>
         </html>
-    "##,
-        header = construct_header(site, &page.foundation),
-        footer = construct_footer(site),
+    "##
     );
     
-    css(site);
     
     page.foundation.content = Some(html);
 }

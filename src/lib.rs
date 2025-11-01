@@ -12,7 +12,7 @@ pub mod page_types {
 pub mod sections {
     pub mod header;
     pub mod footer;
-    pub mod meet_us;
+    pub mod common_sections;
 }
 
 pub mod parts {
